@@ -1,0 +1,20 @@
+DB database 
+DBMS Database Management System
+
+服务的登录和退出
+1.mysql自带的客户端，仅限root用户
+2.cmd   mysql -h主机名 -p端口号 -u用户名 -p密码
+退出 exit 或 ctrl + C
+
+常用命令
+show databases; 显示数据库名
+show tables; 显示表格
+show tables from xxx;
+use xxx; 进入数据库\
+create table 表名(
+
+	列名 列类型,
+	列名 列类型,
+	…
+)
+desc 表明    查看表结构
